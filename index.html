@@ -3,26 +3,60 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="description" content="Quantum secure messaging. Generate a unique stream cipher or AES secret key and share it securely via Bluetooth." />
+        <meta name="keywords" content="quantum secure messaging, encrypted messaging, stream cipher, AES key, Bluetooth encryption, Chiffr, end to end">
+        <meta name="robots" content="index, follow">
         <title>Chiffr - encrypted messaging made easy</title>
+        <link rel="canonical" href="https://www.chiffr.com/" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/> 
+        <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
+    
+        <!-- Open Graph -->
+        <meta property="og:title" content="Chiffr - Encrypted Messaging Made Easy">
+        <meta property="og:description" content="Quantum secure messaging. Generate a unique stream cipher or AES secret key and share it securely via Bluetooth.">
+        <meta property="og:image" content="/assets/img/chiffr-octopus.png">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:url" content="https://www.chiffr.com/">
+        <meta property="og:type" content="website">
+    
+        <!-- Structured Data -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Chiffr",
+            "url": "https://www.chiffr.com/",
+            "logo": "https://www.chiffr.com/assets/img/chiffr-octopus.png",
+            "description": "Quantum secure messaging. Generate a unique stream cipher or AES Key and share it securely via Bluetooth.",
+        }
+        </script>
+    
         <!-- Bootstrap icons-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
         <!-- Google fonts-->
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+    
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
             <div class="container px-5">
-                <a class="navbar-brand fw-bold" href="#page-top" style="font-size: 2.5rem;">chiffr</a>
+                <a class="navbar-brand fw-bold" href="#page-top" style="font-size: 2.5rem;">
+                    <img src="/assets/img/chiffr-octopus.png" alt="Logo" style="height: 4rem; ">
+                    chiffr
+                </a>
+                
                 <!-- <a class="navbar-brand fw-bold" href="#page-top">chiffr</a> -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
@@ -150,15 +184,15 @@
                                     <div class="text-center">
                                         <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Free</h3>
-                                        <p class="text-muted mb-0">Chiffr will always be free to use and will never have ads.</p>
+                                        <p class="text-muted mb-0">Chiffr will always be free to use. Protect your privacy at no cost.</p>
                                     </div>
                                 </div>
                                 <!-- Feature 2: Secure -->
                                 <div class="col-md-6 mb-5">
                                     <div class="text-center">
-                                        <i class="bi-lock icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Secure</h3>
-                                        <p class="text-muted mb-0">Each byte of your message is encrypted individually using a locally made and exchanged cipher, making it theoretically quantum secure.</p>
+                                        <i class="bi-shield-lock icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Quantum Secure</h3>
+                                        <p class="text-muted mb-0">Our secret keys are exchanged locally so the encryption is invulnerable to a quantum attack.</p>
                                     </div>
                                 </div>
                             </div>
@@ -169,34 +203,36 @@
                                     <div class="text-center">
                                         <i class="bi-bluetooth icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Private and Local</h3>
-                                        <p class="text-muted mb-0">Generate your cipher locally and share it via Bluetooth—no internet required, and your data stays private.</p>
+                                        <p class="text-muted mb-0">Generate your secret keys locally and share them via Bluetooth. They are never uploaded.</p>
                                     </div>
                                 </div>
-                                <!-- Feature 4: Enhanced Entropy -->
+                                <!-- Feature 4: Your choice -->
+                                <div class="col-md-6 mb-5 mb-md-0">
+                                    <div class="text-center">
+                                        <i class="bi-chat-left-heart icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">You Choose</h3>
+                                        <p class="text-muted mb-0">A Stream Cipher secures 4000+ messages, while AES is unlimited.</p>
+                                    </div>
+                                </div>
+                          
+                            </div>
+
+                            <div class="row">
+                                <!-- Feature 5: Enhanced Entropy -->
                                 <div class="col-md-6 mb-5">
                                     <div class="text-center">
                                         <i class="bi-dice-5 icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Enhanced Entropy</h3>
-                                        <p class="text-muted mb-0">Boost encryption strength with entropy and randomness—choose iPhone device entropy or use an image to seed a ChaCha CSPRNG.</p>
+                                        <p class="text-muted mb-0">Boost encryption strength with randomness—choose iPhone device entropy or use an image to seed a ChaCha CSPRNG.</p>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="row">
-                                <!-- Feature 5: Enduring Privacy -->
-                                <div class="col-md-6 mb-5 mb-md-0">
-                                    <div class="text-center">
-                                        <i class="bi-chat-left-heart icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Enduring Privacy</h3>
-                                        <p class="text-muted mb-0">A single cipher secures 13,000+ messages, protecting your privacy for months of conversations.</p>
-                                    </div>
-                                </div>
                                 <!-- Feature 6: Open Source -->
                                 <div class="col-md-6">
                                     <div class="text-center">
                                         <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Open Source</h3>
-                                        <p class="text-muted mb-0">We use widely trusted, publicly available algorithms. Review and audit our open-source encryption library on <a href="https://github.com/SeaSideSoftware/chiffr-tools" target="_blank" class="text-decoration-underline">GitHub</a>.</p>
+                                        <p class="text-muted mb-0">We use widely trusted, publicly available algorithms. See our open-source encryption library on <a href="https://github.com/SeaSideSoftware/chiffr-tools" target="_blank" class="text-decoration-underline">GitHub</a>.</p>
                                     </div>
                                 </div>
                             </div>
@@ -265,11 +301,10 @@
                         </p>
                         <ol class="lead fw-normal text-muted">
                             <li>Download the app and sign up with your email address. You will receive a unique username, such as "strongtrumpet281".</li>
-                            <li><strong>Optional:</strong> Start an unencrypted conversation by clicking the plus button at the top of the Conversations page. This allows you to chat without encryption if needed.</li>
-                            <li>To enable encryption, create a new cipher in the Ciphers tab by selecting "Generate Cipher" and following the prompts.</li>
-                            <li>Share your cipher with a friend by selecting it and ensuring both devices are within Bluetooth range. Your friend can then download the cipher by clicking the download icon at the top of their Ciphers page.</li>
-                            <li>Once the cipher is shared, an encrypted conversation will start automatically, ensuring all messages exchanged are secure.</li>
-                            <li>If a cipher is exhausted, simply repeat Steps 3 and 4 to generate and share a new one. This will not erase your chat history.</li>
+                            <li>Create a new AES Key or Stream Cipher in the Encryption tab.</li> 
+                            <li>In the Encryption tab, select the key you generated and have your contact tap download <i class="bi bi-download" style="font-weight: bold;"></i>.</li>
+                            <li>Once the secret key is shared, an encrypted conversation will start automatically, ensuring all messages exchanged are secure.</li>
+                            <li>You can repeat Steps 2 and 3 to generate and share a new key whenever you like. This will not erase your chat history.</li>
                         </ol>
                     </div>
                 </div>
@@ -333,7 +368,7 @@
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Chiffr employs quantum-resistant encryption by generating ciphers locally and exchanging them securely via Bluetooth.
+                                    Chiffr employs quantum-resistant encryption by generating stream ciphers and AES keys locally and exchanging them securely via Bluetooth.
                                 </div>
                             </div>
                         </div>
@@ -347,7 +382,7 @@
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Current key exchange methods (e.g., Diffie-Hellman) rely on the difficulty of solving mathematical 
+                                    Current key exchange methods (e.g., Diffie-Hellman and Elliptical Curv Cryptography) rely on the difficulty of solving mathematical 
                                     problems to securely establish a shared secret. Quantum computers could intercept and calculate these keys,
                                     enabling them to decrypt all communication between parties.
                                 </div>
@@ -370,12 +405,12 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingSix">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    Why do I need to exchange a cipher with my contact?
+                                    Why do I need to exchange a cipher/secret key with my contact?
                                 </button>
                             </h2>
                             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Exchanging a cipher ensures both parties share a secure key for encrypting and decrypting messages. 
+                                    Exchanging a cipher or secret key ensures both parties share a secure key for encrypting and decrypting messages. 
                                     By avoiding online or cloud transmission, the key remains private and fully secure.
                                 </div>
                             </div>
@@ -397,7 +432,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingEight">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                    Why is the cipher consumed as I send messages?
+                                    Why is the stream cipher consumed as I send messages?
                                 </button>
                             </h2>
                             <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
@@ -405,7 +440,7 @@
                                     Our cryptography is built on the One-Time Pad (OTP) method.
                                     Each piece of the cipher is used exactly once for each bit of plaintext message. 
                                     <!-- making the key and the cipher essentially one and the same in this method.  -->
-                                    This uniqueness is why OTP is theoretically unbreakable when used correctly.
+                                    This uniqueness is why OTP is theoretically unbreakable.
                                 </div>
                             </div>
                         </div>
@@ -418,7 +453,7 @@
                             </h2>
                             <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Yes, you can start a chat but the messages will not be encrypted until you share a cipher via Bluetooth. 
+                                    Yes, you can start a chat but the messages will not be encrypted until you share a cipher or AES Key via Bluetooth. 
                                 </div>
                             </div>
                         </div>
@@ -450,13 +485,13 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwelve">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                                    Why not use AES?
+                                    Why share an AES Key?
                                 </button>
                             </h2>
                             <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     While AES encryption itself is not vulnerable to quantum attacks, the Diffie-Hellman key exchange protocol used alongside it is. 
-                                    Stay tuned as we develop unlimited AES encryption powered by locally exchanged keys for enhanced security.                                    </div>
+                                    We provide unlimited AES encryption powered by locally exchanged keys for enhanced security.                                    </div>
                             </div>
                         </div>
                     </div>
@@ -497,7 +532,7 @@
                 </div>
                 <!-- When we launch we will need to activate the form for the new URL, should receive an email -->
                 <div class= "modal-body border-0 p-4">
-                    <form target="_blank" action="https://formsubmit.co/ebde0ae6187399116ef5bdd7e07b12fe" method="POST">
+                    <form target="_blank" action="https://formsubmit.co/ebde0ae6187399116ef5bdd7e07b12fe" method="POST"> 
                         <div class="form-group">
 
                         <div class="form-floating mb-3">
