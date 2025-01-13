@@ -11265,4 +11265,6 @@ iframe {
     width: 100%;
     border: none;
 }
-
+.coming-soon-img {
+  width: 200px;
+}
