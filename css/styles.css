@@ -4352,7 +4352,7 @@ textarea.form-control-lg {
   --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(41, 55, 240, 0.25);
   --bs-accordion-body-padding-x: 1.25rem;
   --bs-accordion-body-padding-y: 1rem;
-  --bs-accordion-active-color: #2532d8;
+  --bs-accordion-active-color: #6D47D9; 
   --bs-accordion-active-bg: #eaebfe;
 }
 
@@ -10834,7 +10834,7 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important; 
 }
 
 .font-alt {
