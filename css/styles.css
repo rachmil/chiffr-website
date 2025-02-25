@@ -4165,6 +4165,108 @@ textarea.form-control-lg {
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+/* Custom styles for mobile navbar */
+@media (max-width: 768px){
+  /* Solution 1: Reduce logo size */
+  .navbar-brand img {
+    height: 1.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 2.5rem !important; /* Override inline style */
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    margin-right: 0;
+  }
+  
+  /* Solution 2: Adjust navbar layout */
+  #mainNav .container {
+    padding: 0.5rem;
+  }
+  
+  #mainNav {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+  
+  /* Solution 3: Change collapsed menu position */
+  #navbarResponsive {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Additional adjustments for better spacing */
+  .navbar-nav {
+    padding: 0.5rem 0;
+  }
+  
+  .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Make the toggler button more compact */
+  .navbar-toggler {
+    padding: 0.2rem 0.5rem;
+    margin-left: auto;
+  }
+
+  #navbarResponsive .navbar-nav,
+  #navbarResponsive .btn {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Add some space between items */
+  /* #navbarResponsive .nav-item {
+    margin-bottom: 0.5rem;
+  }
+   */
+  /* Add some space above the contact button */
+  #navbarResponsive .btn {
+    margin-left: 1rem;
+  }
+
+/* FAQ responsiveness */
+  #faq .container {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  #faq .row {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  
+  #faq .accordion {
+    width: 100%;
+  }
+
+  .container {
+    max-width: 100%; /* Ensure container takes up full width */
+  } 
+
+  .d-flex {
+      flex-direction: row; /* Align items horizontally */
+      align-items: center;
+  }
+  h3 {
+      font-size: 1.5rem; /* Adjust heading size for mobile */
+  }
+
+  .text-muted {
+      font-size: 1rem; /* Adjust text size for mobile */
+  }
+}
+
 .card {
   --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;
@@ -10987,7 +11089,7 @@ section.cta:before {
 }
 
 .icon-feature {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .features-device-mockup {
@@ -11183,41 +11285,6 @@ footer a:hover, footer a:active, footer a:focus {
   }
 }
 
-/* [data-custom-class='body'], [data-custom-class='body'] * {
-        background: transparent !important;
-      }
-[data-custom-class='title'], [data-custom-class='title'] * {
-        font-family: Arial !important;
-font-size: 26px !important;
-color: #000000 !important;
-      }
-[data-custom-class='subtitle'], [data-custom-class='subtitle'] * {
-        font-family: Arial !important;
-color: #595959 !important;
-font-size: 14px !important;
-      }
-[data-custom-class='heading_1'], [data-custom-class='heading_1'] * {
-        font-family: Arial !important;
-font-size: 19px !important;
-color: #000000 !important;
-      }
-[data-custom-class='heading_2'], [data-custom-class='heading_2'] * {
-        font-family: Arial !important;
-font-size: 17px !important;
-color: #000000 !important;
-      }
-[data-custom-class='body_text'], [data-custom-class='body_text'] * {
-        color: #595959 !important;
-font-size: 14px !important;
-font-family: Arial !important;
-      }
-[data-custom-class='link'], [data-custom-class='link'] * {
-        color: #3030F1 !important;
-font-size: 14px !important;
-font-family: Arial !important;
-word-break: break-word !important;
-      } */
-      
 
 .subscribe-section {
     text-align: center;
