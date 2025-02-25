@@ -63,8 +63,9 @@
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Features</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#faq">FAQ</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#howItWorks">How it Works</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="https://apps.apple.com/ca/app/chiffr/id6738585069">Download</a></li>
                     </ul>
-                    <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                    <button class="btn btn-purple rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                         <span class="d-flex align-items-center">
                             <i class="bi-chat-text-fill me-2"></i>
                             <span class="small">Contact Us</span>
@@ -75,18 +76,18 @@
             </div>
         </nav>
             <!-- Mashead header-->
-        <header class="masthead">
+        <header class="masthead"  style="background-color: #e4d3fae1;">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
                         <!-- Mashead text and app badges-->
                         <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                            <h1 class="display-1 lh-1 mb-3">The next level of confidential messaging.</h1>
-                            <p class="lead fw-normal text-muted mb-5">Generate a unique stream cipher directly on your device and share it securely with your contact via Bluetooth.</p>
+                            <h1 class="display-1 lh-1 mb-3">Future Proof Confidential Messaging.</h1>
+                            <p class="lead fw-normal text-muted mb-5">Quantum-resistant chat encryption using device-to-device Bluetooth key exchange. No servers, no backdoors. Stream ciphers protect your chats now and in the future.</p>
                             <div class="d-flex flex-column flex-lg-row align-items-center">
-                                <!-- FIX: add real link when app is live-->
-                                <a href= "https://apps.apple.com/us/" target="_blank"></a>
-                                <img class="app-badge" src="assets/img/app-store-official.svg" alt="..." /></a>
+                                <a href="https://apps.apple.com/ca/app/chiffr/id6738585069" target="_blank">
+                                    <img class="app-badge" src="assets/img/app-store-official.svg" alt="App Store Badge" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -108,7 +109,7 @@
                             <div class="device-wrapper">
                                 <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                                     <div class="screen bg-black">
-                                        <img src="assets/img/chiffr-login.png" alt="Login Image" style="max-width: 100%; height: 100%;" />
+                                        <img src="assets/img/login-light.png" alt="Login Image" style="max-width: 100%; height: 100%;" />
                                     </div>
                                 </div>
                             </div>
@@ -118,58 +119,8 @@
             </div>
         </header>
 
-        <!-- Subscribe Section -->
-        <section class="subscribe-section">
-            <div class="container">
-                <h2>COMING SOON</h2>
-                <p>Join our mailing list to hear when we go live.</p>
-                <button id="subscribeButton">Subscribe</button>
-            </div>
-        </section>
-
-        <div class="popup-overlay" id="popupOverlay">
-            <div class="popup-content">
-                <button class="popup-close" id="closePopup">&times;</button>
-                <iframe 
-                src="https://docs.google.com/forms/d/e/1FAIpQLSfmWzEzYiJ2-zKvrqFRcJdBhDDrBzm6C4i3O9PizVRc-E9wlQ/viewform?embedded=true" 
-                height="451">
-                </iframe>
-            </div>
-        </div>
-
-            <!-- Intro Section-->
-        <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <!-- Heading Section -->
-                    <div class="col-12 col-lg-6">
-                        <h2 class="display-4 lh-1 mb-4">
-                            End-to-End Encryption that puts you in control.
-                        </h2>
-                    </div>
-                    <!-- Content Section -->
-                    <div class="col-12">
-                        <p class="lead fw-normal text-muted mb-5">
-                            Chiffr was built to provide users with a secure, private messaging platform. It addresses the growing 
-                            concern over digital privacy by ensuring that all messages are encrypted locally and only shared with 
-                            trusted contacts. By using encryption methods that are quantum-secure, Chiffr ensures that your messages 
-                            remain private, even in the face of future technological advances.
-                        </p>
-                        <!-- Placeholder Image -->
-                        <div class="coming-soon-wrapper text-left">
-                            <img src="/assets/img/coming-soon-2.png" alt="Coming Soon" class="coming-soon-img">
-                        </div>
-                        <!-- Placeholder for Download Button -->
-                        <!-- Uncomment and update the link when app is live -->
-                        <!-- <a class="btn btn-outline-primary py-3 px-4 rounded-pill" href="LINK_TO_APP_STORE_PAGE" target="_blank">Download for free</a> -->
-                    </div> 
-                </div>
-            </div>
-        </section>
-            
-
             <!-- App Features Section -->
-        <section id="features"  class="bg-light">
+        <section id="features" >
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <!-- Left Column: Features List -->
@@ -180,7 +131,7 @@
                                 <div class="col-md-6 mb-5">
                                     <div class="text-center">
                                         <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Free</h3>
+                                        <h3 class="mb-3">Free</h3>
                                         <p class="text-muted mb-0">Chiffr will always be free to use. Protect your privacy end-to-end at no cost.</p>
                                     </div>
                                 </div>
@@ -188,7 +139,7 @@
                                 <div class="col-md-6 mb-5">
                                     <div class="text-center">
                                         <i class="bi-shield-lock icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Quantum Secure</h3>
+                                        <h3 class="mb-3"> Quantum Secure</h3>
                                         <p class="text-muted mb-0">Our secret keys are exchanged locally so the encryption is invulnerable to even a quantum attack.</p>
                                     </div>
                                 </div>
@@ -199,7 +150,7 @@
                                 <div class="col-md-6 mb-5">
                                     <div class="text-center">
                                         <i class="bi-bluetooth icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Private and Local</h3>
+                                        <h3 class="mb-3">Private and Local</h3>
                                         <p class="text-muted mb-0">Generate your secret keys locally and share them via Bluetooth. They are never uploaded.</p>
                                     </div>
                                 </div>
@@ -207,8 +158,8 @@
                                 <div class="col-md-6 mb-5 mb-md-0">
                                     <div class="text-center">
                                         <i class="bi-chat-left-heart icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">You Choose</h3>
-                                        <p class="text-muted mb-0">A Stream Cipher secures 4000+ messages, while AES is unlimited.</p>
+                                        <h3 class="mb-3">You Decide</h3>
+                                        <p class="text-muted mb-0">You can encrypt each chat with either a Stream Cipher or AES, it's your choice. Change methods anytime.</p>
                                     </div>
                                 </div>
                             
@@ -219,7 +170,7 @@
                                 <div class="col-md-6 mb-5">
                                     <div class="text-center">
                                         <i class="bi-dice-5 icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Enhanced Entropy</h3>
+                                        <h3 class="mb-3">Enhanced Entropy</h3>
                                         <p class="text-muted mb-0">Boost encryption strength with randomness—choose iPhone device entropy or use an image to seed a ChaCha CSPRNG.</p>
                                     </div>
                                 </div>
@@ -228,7 +179,7 @@
                                 <div class="col-md-6">
                                     <div class="text-center">
                                         <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Open Source</h3>
+                                        <h3 class="mb-3">Open Source</h3>
                                         <p class="text-muted mb-0">We use widely trusted, publicly available algorithms. See our open-source encryption library on <a href="https://github.com/SeaSideSoftware/chiffr-tools" target="_blank" class="text-decoration-underline">GitHub</a>.</p>
                                     </div>
                                 </div>
@@ -258,31 +209,25 @@
                             <div class="device-wrapper">
                                 <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                                     <div class="screen bg-black">
-                                        <img src="assets/img/generate-light.png" alt="Cipher Image" style="max-width: 100%; height: 100%;" />
+                                        <div style=" display: flex;  align-items: right; justify-content: center;">
+                                            <video 
+                                                src="assets/img/demo-movie.mp4" 
+                                                style="height: 100%;  width: 100%; transform-origin: center;"
+                                                autoplay muted loop playsinline
+                                            ></video>
+                                          </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>                                        
+
         </section>
 
-            <!-- Snowden Quote -->
-        <aside class="text-center bg-gradient-primary-to-secondary">
-            <div class="container px-5">
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-xl-8">
-                        <div class="h2 fs-1 text-white mb-4 text-center"> "Arguing that you don’t care about the right to privacy because you have nothing to hide is no different than saying you don’t care about free speech because you have nothing to say." </div>
-                        <div class="h3 fs-2 text-white mb-4  text-center"> — Edward Snowden </div>
-                    </div>
-                </div>
-            </div>
-        </aside>
-
-
         <!-- How it works -->
-        <section id="howItWorks" class="bg-light py-5">
+        <section id="howItWorks" style="background-color: #e4d3fae1;">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <!-- Title Section -->
@@ -304,11 +249,11 @@
                                 Create a new AES Key or Stream Cipher in the Encryption tab.
                             </li> 
                             <li>
-                                In the Encryption tab, select the key you generated and have your contact tap download 
-                                <i class="bi bi-download" style="font-weight: bold;"></i>.
+                                In the Encryption tab, select the key you generated, and have your contact tap the download 
+                                button <i class="bi bi-arrow-down-square" style="font-weight: bold;"></i> on their device to receive it.
                             </li>
                             <li>
-                                Once the secret key is shared, an encrypted conversation will start automatically, ensuring all messages exchanged are secure.
+                                Once the secret key is exchanged, an encrypted conversation will start automatically, ensuring all messages exchanged are secure.
                             </li>
                             <li>
                                 You can repeat Steps 2 and 3 to generate and share a new key whenever you like. This will not erase your chat history.
@@ -319,195 +264,329 @@
             </div>
         </section>
 
+        <!-- Marketing Section with built-in gradient transition -->
+        <section id="chiffrAdvantage" style="position: relative; padding-bottom: 200px;">
+            <!-- Gradient transition positioned absolutely -->
+            <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 250px; background-image: linear-gradient(to bottom, rgba(255,255,255,1) 0%, #e4d3fa6e 100%); z-index: 1;"></div>
+            
+            <div class="container px-5" style="position: relative; z-index: 2;">
+                <!-- Heading Section -->
+                <div class="row gx-5 align-items-center">
+                    <div class="col-12">
+                        <h2 class="display-4 lh-1 mb-4">The Chiffr Advantage</h2>
+                    </div>
+                </div>
+                        
+                <!-- Content Section -->
+                <div class="row gx-5 mt-4">
+                    <div class="col-md-4 mb-5">
+                        <div class="bg-light rounded-3 p-4 h-100" style="border-radius: 15px; box-shadow: 0 4px 8px #d9dce0;">
+                            <h3 class="mb-3">Device-to-Device</h3>
+                            <p class="text-muted mb-0" style="text-align: left;">Unlike traditional messaging apps that rely on internet-based Diffie–Hellman key exchange, Chiffr leverages a encrypted, direct Bluetooth connection between devices to share encryption keys.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="bg-light rounded-3 p-4 h-100" style="border-radius: 15px; box-shadow: 0 4px 8px #c3c7cb;">
+                            <h3 class="mb-3">Quantum Resistance</h3>
+                            <p class="text-muted mb-0" style="text-align: left;">Our most secure encryption, derived from photo entropy, uses a bit-by-bit unique stream cipher to ensure your data is unintelligible to any quantum computer, government or corporation now and in the future.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="bg-light rounded-3 p-4 h-100" style="border-radius: 15px; box-shadow: 0 4px 8px #c3c7cb;">
+                          <h3 class="mb-3">Data Control</h3>
+                          <p class="text-muted mb-0" style="text-align: left;">You can permanently erase chat history and encryption keys with a single tap and your erased data will remain forever undecodable. We promise to never collect and share you information.</p>
+                        </div>
+                      </div>
+                </div>
+                <!-- Download -->
+                <div class="row gx-5 mt-3">
+                    <div class="col-12 text-center">
+                        <a href="https://apps.apple.com/ca/app/chiffr/id6738585069" target="_blank" class="btn btn-purple btn-lg px-5 py-3" style="border-radius: 30px; font-weight: 600; box-shadow: 0 4px 15px rgba(109, 71, 217, 0.4);">
+                            <i class="bi-apple me-2"></i>Download Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
 
         <!-- FAQ Section -->
-        <section id="faq">
-            <div class="row mt-5 px-5">
-                <div class="col-12">
-                    <h2 class="text-left mb-4">Frequently Asked Questions</h2>
-                    <div class="accordion" id="faqAccordion">
+        <section id="faq" style="background-color:#e4d3fa6e; padding-top: 30px; padding-bottom: 50px;">
+            <div class="container px-5">
+                <div class="row px-5">
+                    <div class="col-12">
+                        <h2 class="text-left mb-4">Frequently Asked Questions</h2>
+                        <div class="accordion" id="faqAccordion">
                         <!-- Question 1 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    What is Chiffr and how does it work?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Chiffr is a secure, private communication tool that uses Bluetooth exchanged ciphers for encryption.
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Why is Chiffr different?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                    <p>
+                                        Chiffr is a secure, private communication tool that provides quantum-resistant encryption by generating Stream Ciphers and AES keys locally and exchanging them securely via Bluetooth.
+                                    </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- Question 2 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Is Chiffr free to use?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Yes, Chiffr is completely free to use and its encryption methods are open source.
+                            <!-- Question 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Is Chiffr free to use?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                    <p>
+                                        Yes, Chiffr is completely free to use and its encryption methods are open source.
+                                    </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- Question 2.5 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingBoo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBoo" aria-expanded="false" aria-controls="collapseBoo">
-                                    How secure is Chiffr?
-                                </button>
-                            </h2>
-                            <div id="collapseBoo" class="accordion-collapse collapse" aria-labelledby="headingBoo" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Unless your device itself is compromised, any interceptor is theoretically incapable of deciphering your messages.
-                                </div>
-                            </div>
-                        </div>
+                            <!-- Question 2.5 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingBoo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBoo" aria-expanded="false" aria-controls="collapseBoo">
+                                        How does Chiffr provide security?
+                                    </button>
+                                </h2>
+                                <div id="collapseBoo" class="accordion-collapse collapse" aria-labelledby="headingBoo" data-bs-parent="#faqAccordion">
+                                        <!-- <p>Our encrypted chat app allows users to choose between AES (Advanced Encryption Standard) or a stream cipher based on a pseudo-random number generator (PRNG) for encrypting messages. Encryption keys and ciphers are never stored off-device, ensuring they remain secure.</p>
 
-                        <!-- Question 3 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    How is Chiffr different than other encrypted messaging apps?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Chiffr employs quantum-resistant encryption by generating stream ciphers and AES keys locally and exchanging them securely via Bluetooth.
+                                        <p>For key exchange, we use Bluetooth Low Energy (BLE) Secure Connections, which employs Diffie-Hellman key exchange for encryption. Since this exchange occurs locally over BLE, it is not exposed to network traffic, reducing the risk of interception compared to internet-based key exchanges.</p>
+                                        
+                                        <p>Both the AES key and the stream cipher are securely transmitted over BLE.</p>
+                                        
+                                        <p>When generating the stream cipher, we offer the option to introduce entropy from images captured on the device. We acknowledge that the ChaCha CSPRNG is pseudo-random and not truly unpredictable. While PRNGs have theoretical vulnerabilities, they are widely used in industry, including banking applications, and are considered sufficiently secure.</p>
+                                        
+                                        <p>We are transparent about these trade-offs and continuously work to improve security.</p> -->
+                                    <div class="accordion-body">
+                                        <p>
+                                            Our encrypted chat app allows users to choose between <strong>AES (Advanced Encryption Standard)</strong> 
+                                            and a <strong>Stream Cipher</strong> based on a pseudo-random number generator (PRNG) for message encryption. 
+                                            Encryption keys and ciphers are never stored off-device, ensuring maximum security.
+                                        </p>
+                                    
+                                        <p>
+                                            For key exchange, we utilize <strong>Bluetooth Low Energy Secure Connections (LESC) </strong>, which leverages 
+                                            Diffie-Hellman key exchange for encryption. Since this exchange occurs locally over BLE, it is never exposed 
+                                            to network traffic, significantly reducing the risk of interception compared to internet-based key exchanges.
+                                        </p>
+                                    
+                                        <p>
+                                            Both the AES key and the stream cipher are securely transmitted with Bluetooth LESC.
+                                        </p>
+                                    
+                                        <p>
+                                            When generating the stream cipher, users have the option to introduce additional entropy from images captured 
+                                            on the device. While we recognize that the <strong>ChaCha CSPRNG</strong> is pseudo-random rather than truly 
+                                            unpredictable, PRNGs are widely used in industries such as banking and are considered sufficiently secure for 
+                                            practical encryption purposes.
+                                        </p>
+                                    
+                                        <p>
+                                            We remain transparent about these security trade-offs and are committed to continuously improving our encryption methods.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- Question 4 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    How is Chiffr quantum secure?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Current key exchange methods (e.g., Diffie-Hellman and Elliptical Curve Cryptography) rely on the difficulty of solving mathematical 
-                                    problems to securely establish a shared secret. Quantum computers could intercept and calculate these keys, enabling them to decrypt all communication between parties.
+                            <!-- Question 4 -->
+                            <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingQuantum">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseQuantum" aria-expanded="false" aria-controls="collapseQuantum">
+                                            How does Chiffr resist quantum computing advances?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseQuantum" class="accordion-collapse collapse" aria-labelledby="headingQuantum" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Quantum computing is advancing at an exponential pace, with qubit counts increasing significantly each year. 
+                                                Traditional key exchange methods, such as Diffie-Hellman and Elliptic Curve Cryptography, rely on the complexity 
+                                                of mathematical problems to establish a secure shared secret. However, quantum computers could break these methods, 
+                                                intercepting and decrypting communications.
+                                            </p>
+                                        
+                                            <p>
+                                                Chiffr enhances security by facilitating key exchange over Bluetooth, ensuring that keys are never stored remotely. 
+                                                Both the Stream Cipher and AES-256 provide strong resistance against quantum threats.
+                                            </p>
+                                        
+                                            <ul>
+                                                <li>
+                                                    <strong>Stream Ciphers</strong> are inherently resistant to quantum attacks. Unlike asymmetric encryption, 
+                                                    which relies on mathematical problems vulnerable to Shor’s algorithm, Chiffr's encryption ensures that even 
+                                                    large-scale quantum computers cannot brute-force the key.
+                                                </li>
+                                                <li>
+                                                    <strong>AES-256</strong> remains highly secure, with estimates suggesting that breaking it would require 
+                                                    approximately <strong>295 million logical qubits</strong>—a capability that quantum computers are unlikely to achieve for decades.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
 
-                        <!-- Question 5 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    What is a cipher?
-                                </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    A cipher (SY-fur) is a binary data file shared between contacts. Each message uses a unique portion of the cipher for encryption, and it is never re-used for another message.
+                            <!-- Bluetooth Encryption / MITM -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="bluetooth">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBluetooth" aria-expanded="false" aria-controls="collapseBluetooth">
+                                        Is the Bluetooth transmission encrypted?
+                                    </button>
+                                </h2>
+                                <div id="collapseBluetooth" class="accordion-collapse collapse" aria-labelledby="bluetooth" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                    <p>
+                                        All data is transmitted via Bluetooth using Secure Connections Pairing (Bluetooth LESC) to prevent passive eavesdropping and MITM attacks. 
+                                        You will be asked to confirm a 6 digit code during your first transfer of a secret key with a contact.
+                                    </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- Question 6 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingSix">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    Why do I need to exchange a cipher/secret key with my contact?
-                                </button>
-                            </h2>
-                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Exchanging a cipher or secret key ensures both parties share a secure key for encrypting and decrypting messages. By avoiding online or cloud transmission, the key remains private and fully secure.
-                                </div>
-                            </div>
-                        </div>
 
-                        <!-- Question 7 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingSeven">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    Why is the app called Chiffr?
-                                </button>
-                            </h2>
-                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Chiffr is a spin on "Chiffre," the French word for "cipher" or "key." It symbolizes the secure key that keeps your messages private.
+                            <!-- Question 5 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        What is a Stream Cipher?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p> 
+                                            A Stream Cipher is a binary data file generated from a psuedo random number generator (PRNG). When you share a Stream Cipher with a contact, 
+                                            each message will use a unique portion of the cipher for encryption, and it is never re-used for another message.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- Question 8 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingEight">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                    Why is the stream cipher consumed as I send messages?
-                                </button>
-                            </h2>
-                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Our cryptography is built on the One-Time Pad (OTP) method. Each piece of the cipher is used exactly once for each bit of plaintext message. This uniqueness is why OTP is theoretically unbreakable.
+                            <!-- Question 6 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Why do I need to exchange a secret key with my contact?
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                            <p>
+                                                Exchanging a Stream Cipher or AES key ensures both parties have access to a secure key for encrypting and decrypting messages. 
+                                                By avoiding internet-based transmission, the key remains private and significantly less susceptible to interception.
+                                            </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- Question 9 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingNine">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                    Can I message without exchanging ciphers?
-                                </button>
-                            </h2>
-                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Yes, you can start a chat but the messages will not be encrypted until you share a cipher or AES Key via Bluetooth.
+                            <!-- Question 8 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingEight">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                        Why is the Stream Cipher consumed as I send messages?
+                                    </button>
+                                </h2>
+                                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Each bit of the cipher is used exactly once per corresponding bit of plaintext and is never reused, ensuring strong cryptographic security. 
+                                            Our Stream Cipher has a fixed size of 200 KB, providing sufficient entropy for approximately 5,000 messages.  
+                                            Once the cipher is fully consumed, a new Stream Cipher can be securely exchanged to maintain confidentiality.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- Question 10 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTen">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                    What do I need to sign up?
-                                </button>
-                            </h2>
-                            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    You need an email address to sign up, and you will be assigned a random username to interact with your contacts (e.g., being added to conversations).
+                            <!-- Question 9 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingNine">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                        Can I message without exchanging a secret key?
+                                    </button>
+                                </h2>
+                                <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Yes, you can start a chat but the messages will not be encrypted until you share a Stream Cipher or AES Key via Bluetooth.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- Question 11 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingEleven">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                                    Can I delete my chat history?
-                                </button>
-                            </h2>
-                            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Yes, when you <b>or</b> your contact deletes the chat history, both the messages and the ciphers will be permanently erased for both parties.
+                            <!-- Question 10 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTen">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                        What do I need to sign up?
+                                    </button>
+                                </h2>
+                                <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p>
+                                        To sign up, you’ll need to provide an email address. Once registered, a random username will be assigned to you,
+                                         which you'll use to interact with your contacts and participate in actions like being added to conversations.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- Question 12 -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwelve">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                                    Why share an AES Key?
-                                </button>
-                            </h2>
-                            <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    While AES encryption itself is not vulnerable to quantum attacks, the Diffie-Hellman key exchange protocol used alongside it is. We provide unlimited AES encryption powered by locally exchanged keys for enhanced security.
+                            <!-- Question 11 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingEleven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                        Can I delete my chat history?
+                                    </button>
+                                </h2>
+                                <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Yes, when <b>you or your contact</b> delete the chat history, both the messages and ciphers will be permanently removed for both parties.
+                                        </p>  
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+
+                            <!-- Question 11 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingData">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseData" aria-expanded="false" aria-controls="collapseData">
+                                        Is my data being shared?
+                                    </button>
+                                </h2>
+                                <div id="collapseData" class="accordion-collapse collapse" aria-labelledby="headingData" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p>
+                                            No, your information is never shared with any third party beyond what is necessary for authentication. We use Firebase Auth to manage sign-ins securely, but we do not track your activity across other apps.  
+                                            Signing up for Chiffr only requires an email address, which remains private—other users cannot see it.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Question 11 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingGoogle">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGoogle" aria-expanded="false" aria-controls="collapseGoogle">
+                                        How is my account secured?
+                                    </button>
+                                </h2>
+                                <div id="collapseGoogle" class="accordion-collapse collapse" aria-labelledby="headingGoogle" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Chiffr uses Google's Firebase Auth to manage your email and password. Backed by Google's infrastructure and adhering to best security practices, Firebase Auth is highly secure.
+                                    Key security features include:                                 
+                                    <ul> <li><strong>Hashing and salting:</strong> Your raw password is never stored. Instead, Firebase uses bcrypt, a strong industry-standard hashing algorithm, making it resistant to brute-force attacks.</li>
+                                        <li><strong>Suspicious activity monitoring:</strong> Detects and blocks unusual login attempts.</li> 
+                                        <li><strong>End-to-end encryption:</strong> Authentication requests are secured with HTTPS, preventing interception by attackers.</li> 
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>      
                     </div>
                 </div>
             </div>
@@ -539,39 +618,47 @@
         <!-- Contact Popup-->
         <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content"> 
-                    <div class="modal-header bg-gradient-primary-to-secondary p-4">
-                        <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Contact Us</h5>
-                        <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-content" style="background-image: linear-gradient(to bottom, rgba(255,255,255,1) 0%, #e4d3fa6e 100%);"> 
+                    <div class="modal-header bg-transparent p-4">
+                        <h5 class="modal-title text-dark" id="feedbackModalLabel" style="font-size: 2rem;">Contact Us</h5>
+                        <button class="btn-close btn-close-dark" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <!-- When we launch we will need to activate the form for the new URL, should receive an email -->
-                    <div class= "modal-body border-0 p-4">
+                    <!-- Form content -->
+                    <div class="modal-body border-0 p-4">
                         <form target="_blank" action="https://formsubmit.co/ebde0ae6187399116ef5bdd7e07b12fe" method="POST"> 
                             <div class="form-group">
+                                <!-- Name Input -->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." required />
+                                    <label for="name">Name</label>
+                                </div>
 
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." required />
-                                <label for="name">Name</label>
-                            </div>
+                                <!-- Email Input -->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" required />
+                                    <label for="email">Email Address</label>
+                                </div>
 
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" required />
-                                <label for="email">Email Address</label>
-                            </div>
+                                <!-- Message Input -->
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
+                                    <label for="message">Message</label>
+                                </div>
 
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" name="message" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
-                                <label for="message">Message</label>
-                            </div>
-
-                            <div class="d-grid">
-                                <button class="btn btn-primary rounded-pill btn-lg" id="submitButton" type="submit">Submit</button>
+                                <!-- Submit Button -->
+                                <div class="d-grid d-sm-bloc; text-center">
+                                    <button class="btn btn-purple px-5 py-3" id="submitButton" type="submit" style="border-radius: 30px; font-weight: 600; box-shadow: 0 4px 15px rgba(109, 71, 217, 0.4); color: white;">
+                                        Submit
+                                    </button>
+                                </div>
                             </div>
                         </form>
-                        </div>
+                    </div>
                 </div> 
             </div>
-        </div> 
+        </div>
+
+
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
